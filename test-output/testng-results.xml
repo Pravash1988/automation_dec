@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="135655" started-at="2023-02-14T14:36:34 IST" finished-at="2023-02-14T14:38:50 IST">
+  <suite name="Suite" duration-ms="156663" started-at="2023-02-14T16:25:19 IST" finished-at="2023-02-14T16:27:56 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="135655" started-at="2023-02-14T14:36:34 IST" finished-at="2023-02-14T14:38:50 IST">
+    <test name="Test" duration-ms="156663" started-at="2023-02-14T16:25:19 IST" finished-at="2023-02-14T16:27:56 IST">
       <class name="testCase.LoginTest">
-        <test-method status="PASS" signature="beforetest(java.lang.String)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="beforetest" is-config="true" duration-ms="33" started-at="2023-02-14T14:36:34 IST" finished-at="2023-02-14T14:36:34 IST">
+        <test-method status="PASS" signature="beforetest(java.lang.String)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="beforetest" is-config="true" duration-ms="49" started-at="2023-02-14T16:25:19 IST" finished-at="2023-02-14T16:25:19 IST">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="beforemethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="beforemethod" is-config="true" duration-ms="23405" started-at="2023-02-14T14:36:34 IST" finished-at="2023-02-14T14:36:58 IST">
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="beforemethod" is-config="true" duration-ms="18154" started-at="2023-02-14T16:25:19 IST" finished-at="2023-02-14T16:25:38 IST">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="InvalidLogin()[pri:0, instance:testCase.LoginTest@6a1aab78]" name="InvalidLogin" duration-ms="2420" started-at="2023-02-14T14:36:58 IST" finished-at="2023-02-14T14:37:00 IST">
+        <test-method status="PASS" signature="InvalidLogin()[pri:0, instance:testCase.LoginTest@6a1aab78]" name="InvalidLogin" duration-ms="5726" started-at="2023-02-14T16:25:38 IST" finished-at="2023-02-14T16:25:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidLogin -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-02-14T14:37:00 IST" finished-at="2023-02-14T14:37:00 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-02-14T16:25:43 IST" finished-at="2023-02-14T16:25:43 IST">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforemethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="beforemethod" is-config="true" duration-ms="24681" started-at="2023-02-14T14:37:00 IST" finished-at="2023-02-14T14:37:25 IST">
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="beforemethod" is-config="true" duration-ms="14745" started-at="2023-02-14T16:25:43 IST" finished-at="2023-02-14T16:25:58 IST">
           <params>
             <param index="0">
               <value>
@@ -55,13 +55,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:testCase.LoginTest@6a1aab78]" name="loginTest" duration-ms="2228" started-at="2023-02-14T14:37:25 IST" finished-at="2023-02-14T14:37:27 IST">
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:testCase.LoginTest@6a1aab78]" name="loginTest" duration-ms="2274" started-at="2023-02-14T16:25:58 IST" finished-at="2023-02-14T16:26:00 IST">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Paul Collings] but found [Nitesh Bhattarai]]]>
+              <![CDATA[expected [Paul Collings] but found [King Modi]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Paul Collings] but found [Nitesh Bhattarai]
+              <![CDATA[java.lang.AssertionError: expected [Paul Collings] but found [King Modi]
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
@@ -102,7 +102,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="afterMethod" is-config="true" duration-ms="540" started-at="2023-02-14T14:37:27 IST" finished-at="2023-02-14T14:37:28 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="afterMethod" is-config="true" duration-ms="781" started-at="2023-02-14T16:26:00 IST" finished-at="2023-02-14T16:26:01 IST">
           <params>
             <param index="0">
               <value>
@@ -113,7 +113,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforemethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="beforemethod" is-config="true" duration-ms="11072" started-at="2023-02-14T14:37:28 IST" finished-at="2023-02-14T14:37:39 IST">
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="beforemethod" is-config="true" duration-ms="24918" started-at="2023-02-14T16:26:01 IST" finished-at="2023-02-14T16:26:26 IST">
           <params>
             <param index="0">
               <value>
@@ -124,11 +124,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="redirectToResetPasswordPageLinkPresent()[pri:0, instance:testCase.LoginTest@6a1aab78]" name="redirectToResetPasswordPageLinkPresent" duration-ms="39" started-at="2023-02-14T14:37:39 IST" finished-at="2023-02-14T14:37:39 IST">
+        <test-method status="PASS" signature="redirectToResetPasswordPageLinkPresent()[pri:0, instance:testCase.LoginTest@6a1aab78]" name="redirectToResetPasswordPageLinkPresent" duration-ms="42" started-at="2023-02-14T16:26:26 IST" finished-at="2023-02-14T16:26:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- redirectToResetPasswordPageLinkPresent -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-02-14T14:37:39 IST" finished-at="2023-02-14T14:37:39 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-02-14T16:26:26 IST" finished-at="2023-02-14T16:26:26 IST">
           <params>
             <param index="0">
               <value>
@@ -139,7 +139,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforemethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="beforemethod" is-config="true" duration-ms="11628" started-at="2023-02-14T14:37:39 IST" finished-at="2023-02-14T14:37:50 IST">
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="beforemethod" is-config="true" duration-ms="28122" started-at="2023-02-14T16:26:26 IST" finished-at="2023-02-14T16:26:54 IST">
           <params>
             <param index="0">
               <value>
@@ -150,22 +150,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="navigateResetPasswordPage()[pri:0, instance:testCase.LoginTest@6a1aab78]" name="navigateResetPasswordPage" duration-ms="1370" started-at="2023-02-14T14:37:50 IST" depends-on-methods="testCase.LoginTest.redirectToResetPasswordPageLinkPresent" finished-at="2023-02-14T14:37:52 IST">
+        <test-method status="PASS" signature="navigateResetPasswordPage()[pri:0, instance:testCase.LoginTest@6a1aab78]" name="navigateResetPasswordPage" duration-ms="1429" started-at="2023-02-14T16:26:54 IST" depends-on-methods="testCase.LoginTest.redirectToResetPasswordPageLinkPresent" finished-at="2023-02-14T16:26:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateResetPasswordPage -->
-        <test-method status="PASS" signature="beforemethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="beforemethod" is-config="true" duration-ms="47598" started-at="2023-02-14T14:37:52 IST" finished-at="2023-02-14T14:38:39 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.cancelButton()[pri:0, instance:testCase.LoginTest@6a1aab78] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-02-14T14:37:52 IST" finished-at="2023-02-14T14:37:52 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-02-14T16:26:56 IST" finished-at="2023-02-14T16:26:56 IST">
           <params>
             <param index="0">
               <value>
@@ -176,7 +165,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="cancelButton()[pri:0, instance:testCase.LoginTest@6a1aab78]" name="cancelButton" duration-ms="10277" started-at="2023-02-14T14:38:39 IST" depends-on-methods="testCase.LoginTest.navigateResetPasswordPage" finished-at="2023-02-14T14:38:50 IST">
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="beforemethod" is-config="true" duration-ms="49813" started-at="2023-02-14T16:26:56 IST" finished-at="2023-02-14T16:27:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.cancelButton()[pri:0, instance:testCase.LoginTest@6a1aab78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="FAIL" signature="cancelButton()[pri:0, instance:testCase.LoginTest@6a1aab78]" name="cancelButton" duration-ms="10306" started-at="2023-02-14T16:27:46 IST" depends-on-methods="testCase.LoginTest.navigateResetPasswordPage" finished-at="2023-02-14T16:27:56 IST">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for presence of element located by: By.className: orangehrm-forgot-password-button--cancel (tried for 10 second(s) with 500 milliseconds interval)]]>
@@ -220,10 +220,10 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRAVASH', ip: '192.168.160.215', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.122, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRAVAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f858a4d0898bb6d5ed0021ea6f7133a6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.122, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRAVAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 97981b78d7b8a5b4e737eef2d6994240
 *** Element info: {Using=class name, value=orangehrm-forgot-password-button--cancel}
-at sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+at sun.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -252,7 +252,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cancelButton -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="afterMethod" is-config="true" duration-ms="287" started-at="2023-02-14T14:38:50 IST" finished-at="2023-02-14T14:38:50 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCase.LoginTest@6a1aab78]" name="afterMethod" is-config="true" duration-ms="217" started-at="2023-02-14T16:27:56 IST" finished-at="2023-02-14T16:27:56 IST">
           <params>
             <param index="0">
               <value>
