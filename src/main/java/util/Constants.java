@@ -12,6 +12,14 @@ public class Constants {
 	public static final String ADMIN_USERMANAGEMENT_HEADER="User Management";
 	public static final String LOGINPAGE_LOGIN_HEADER="Login";
 	public static final List<String> HOMEPAGE_MENU_LINKS=Arrays.asList("Admin","PIM","Leave","Time","Recruitment","My Info","Performance","Dashboard","Directory","Maintenance","Buzz");
+	
+	
+	
+	
+	public void addTestr()
+	{
+		
+	}
 		
 
 }
