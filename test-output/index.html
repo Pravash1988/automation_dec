@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>D:\Pravash Eclipse\MyfirstMaven\testng.xml</span>
+                    <span>D:\mavenrestored\MavenCode1\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,11 +103,6 @@
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCase.LoginTest" hash-for-method="cancelButton">cancelButton</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCase.LoginTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -122,6 +117,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCase.LoginTest" hash-for-method="InvalidLogin">InvalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCase.LoginTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -166,10 +166,10 @@ Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable t
   (Session info: chrome=109.0.5414.122)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PRAVASH&apos;, ip: &apos;192.168.160.215&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
+System info: host: &apos;PRAVASH&apos;, ip: &apos;192.168.29.106&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.122, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRAVAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 97981b78d7b8a5b4e737eef2d6994240
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.122, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\PRAVAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c23ee65cc2274d25513481fa2297296
 *** Element info: {Using=class name, value=orangehrm-forgot-password-button--cancel}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -192,18 +192,6 @@ Session ID: 97981b78d7b8a5b4e737eef2d6994240
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Paul Collings] but found [King Modi]
-	at testCase.LoginTest.loginTest(LoginTest.java:49)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
@@ -217,6 +205,13 @@ Session ID: 97981b78d7b8a5b4e737eef2d6994240
                   <a name="InvalidLogin">
                   </a> <!-- InvalidLogin -->
                   <span class="method-name">InvalidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -238,7 +233,7 @@ Session ID: 97981b78d7b8a5b4e737eef2d6994240
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Pravash Eclipse\MyfirstMaven\testng.xml</span>
+            <span class="header-content">D:\mavenrestored\MavenCode1\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -295,28 +290,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'cancelButton')
 data.setCell(0, 2, 'testCase.LoginTest')
-data.setCell(0, 3, 10306);
+data.setCell(0, 3, 10348);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'InvalidLogin')
 data.setCell(1, 2, 'testCase.LoginTest')
-data.setCell(1, 3, 5726);
+data.setCell(1, 3, 3064);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginTest')
 data.setCell(2, 2, 'testCase.LoginTest')
-data.setCell(2, 3, 2274);
+data.setCell(2, 3, 2987);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'navigateResetPasswordPage')
 data.setCell(3, 2, 'testCase.LoginTest')
-data.setCell(3, 3, 1429);
+data.setCell(3, 3, 1398);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'redirectToResetPasswordPageLinkPresent')
 data.setCell(4, 2, 'testCase.LoginTest')
-data.setCell(4, 3, 42);
+data.setCell(4, 3, 46);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -349,67 +344,65 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforemethod([TestResult name={null} status=CREATED method=LoginTest.InvalidLogin()[pri:0, instance:testCase.Logi...)</span>
-                <span class="method-start">92 ms</span>
+                <span class="method-start">61 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">InvalidLogin</span>
-                <span class="method-start">18249 ms</span>
+                <span class="method-start">54699 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=InvalidLogin status=SUCCESS method=LoginTest.InvalidLogin()[pri:0, instance:testCas...)</span>
-                <span class="method-start">23979 ms</span>
+                <span class="method-start">57772 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforemethod([TestResult name={null} status=CREATED method=LoginTest.loginTest()[pri:0, instance:testCase.LoginTe...)</span>
-                <span class="method-start">23980 ms</span>
+                <span class="method-start">57776 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">loginTest</span>
-                <span class="method-start">38725 ms</span>
+                <span class="method-start">67080 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=loginTest status=FAILURE method=LoginTest.loginTest()[pri:0, instance:testCase.Logi...)</span>
-                <span class="method-start">41004 ms</span>
+                <span class="method-name">afterMethod([TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:0, instance:testCase.Logi...)</span>
+                <span class="method-start">70069 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforemethod([TestResult name={null} status=CREATED method=LoginTest.redirectToResetPasswordPageLinkPresent()[pri...)</span>
-                <span class="method-start">41786 ms</span>
+                <span class="method-start">70071 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">redirectToResetPasswordPageLinkPresent</span>
-                <span class="method-start">66704 ms</span>
+                <span class="method-start">79499 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=redirectToResetPasswordPageLinkPresent status=SUCCESS method=LoginTest.redirectToRe...)</span>
-                <span class="method-start">66748 ms</span>
+                <span class="method-start">79553 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforemethod([TestResult name={null} status=CREATED method=LoginTest.navigateResetPasswordPage()[pri:0, instance:...)</span>
-                <span class="method-start">66759 ms</span>
+                <span class="method-start">79557 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">navigateResetPasswordPage</span>
-                <span class="method-start">94881 ms</span>
+                <span class="method-start">89734 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=navigateResetPasswordPage status=SUCCESS method=LoginTest.navigateResetPasswordPage...)</span>
-                <span class="method-start">96312 ms</span>
+                <span class="method-start">91134 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforemethod([TestResult name={null} status=CREATED method=LoginTest.cancelButton()[pri:0, instance:testCase.Logi...)</span>
-                <span class="method-start">96313 ms</span>
+                <span class="method-start">91136 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">cancelButton</span>
-                <span class="method-start">146126 ms</span>
+                <span class="method-start">99680 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=cancelButton status=FAILURE method=LoginTest.cancelButton()[pri:0, instance:testCas...)</span>
-                <span class="method-start">156436 ms</span>
+                <span class="method-start">110038 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
