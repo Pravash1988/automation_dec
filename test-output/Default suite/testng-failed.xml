@@ -6,11 +6,9 @@
       <class name="testCase.LoginTest">
         <methods>
           <include name="beforetest"/>
-          <include name="navigateResetPasswordPage"/>
           <include name="beforemethod"/>
           <include name="loginTest"/>
-          <include name="redirectToResetPasswordPageLinkPresent"/>
-          <include name="cancelButton"/>
+          <include name="afterMethod"/>
         </methods>
       </class> <!-- testCase.LoginTest -->
     </classes>

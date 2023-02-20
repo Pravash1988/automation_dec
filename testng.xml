@@ -3,6 +3,7 @@
 <suite name="Suite">
 <listeners>
 <listener class-name="listeners.TestNGListeners"></listener>
+<listener class-name="listeners.ExtentReportListener"></listener>
 </listeners>
   <test thread-count="5" name="Test">
   <parameter name="env" value="SIT"></parameter>
