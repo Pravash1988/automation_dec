@@ -13,6 +13,7 @@
           <include name="beforetest"/>
           <include name="navigateResetPasswordPage"/>
           <include name="beforemethod"/>
+          <include name="loginTest"/>
           <include name="afterMethod"/>
           <include name="redirectToResetPasswordPageLinkPresent"/>
           <include name="cancelButton"/>
