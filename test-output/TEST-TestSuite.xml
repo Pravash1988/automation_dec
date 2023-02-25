@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="125.742" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="255.455" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Java\jre\bin"/>
@@ -21,31 +21,31 @@
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="D:\Java\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\PRAVAS~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 11"/>
     <property name="classworlds.conf" value="C:\Apache Maven\apache-maven-3.8.7-bin\apache-maven-3.8.7\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="D:\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\PuTTY\;D:\Java\bin;C:\Apache Maven\apache-maven-3.8.7-bin\apache-maven-3.8.7\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="D:\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\PuTTY\;D:\Java\bin;C:\Apache Maven\apache-maven-3.8.7-bin\apache-maven-3.8.7\bin;D:\Git_pravash\cmd;C:\Users\Pravash Behera\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="maven.conf" value="C:\Apache Maven\apache-maven-3.8.7-bin\apache-maven-3.8.7/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
     <property name="library.jansi.path" value="C:\Apache Maven\apache-maven-3.8.7-bin\apache-maven-3.8.7\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.home" value="C:\Users\Pravash Behera"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="Administrator"/>
+    <property name="user.name" value="Pravash Behera"/>
     <property name="java.class.path" value="C:\Apache Maven\apache-maven-3.8.7-bin\apache-maven-3.8.7\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="D:\Java\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DEnv=SIT"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -57,6 +57,7 @@
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\Apache Maven\apache-maven-3.8.7-bin\apache-maven-3.8.7"/>
     <property name="file.separator" value="\"/>
+    <property name="Env" value="SIT"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
@@ -64,36 +65,37 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="InvalidLogin" classname="testCase.LoginTest" time="2.23"/>
-  <testcase name="loginTest" classname="testCase.LoginTest" time="2.418"/>
-  <testcase name="redirectToResetPasswordPageLinkPresent" classname="testCase.LoginTest" time="0.041"/>
-  <testcase name="navigateResetPasswordPage" classname="testCase.LoginTest" time="1.435"/>
-  <testcase name="cancelButton" classname="testCase.LoginTest" time="10.115">
+  <testcase name="InvalidLogin" classname="testCase.LoginTest" time="3.818"/>
+  <testcase name="loginTest" classname="testCase.LoginTest" time="3.572"/>
+  <testcase name="redirectToResetPasswordPageLinkPresent" classname="testCase.LoginTest" time="0.028"/>
+  <testcase name="navigateResetPasswordPage" classname="testCase.LoginTest" time="3.132"/>
+  <testcase name="cancelButton" classname="testCase.LoginTest" time="10.373">
     <failure message="Expected condition failed: waiting for presence of element located by: By.className: orangehrm-forgot-password-button--cancel (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.className: orangehrm-forgot-password-button--cancel (tried for 10 second(s) with 500 milliseconds interval)
 	at testCase.LoginTest.cancelButton(LoginTest.java:130)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"css selector","selector":".orangehrm\-forgot\-password\-button\-\-cancel"}
-  (Session info: chrome=109.0.5414.120)
+  (Session info: chrome=110.0.5481.105)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PRAVASH', ip: '192.168.29.106', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+System info: host: 'PRAVASH', ip: '192.168.43.106', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:59493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5fb9b7ed651553da586ac1a20f03e018
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\PRAVAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61409}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 74a163ea7e5f8b506bac235e2b41d8cd
 *** Element info: {Using=class name, value=orangehrm-forgot-password-button--cancel}
 	at testCase.LoginTest.cancelButton(LoginTest.java:130)
 </failure>
     <system-out><![CDATA[onTestSuccess
-02-06-2023 23:31:31 TestBase.java INFO  [main] testbase.TestBase 41 - -------Execution started for TestcasecancelButton-----
-02-06-2023 23:31:31 DriverFactory.java INFO  [main] driverFactory.DriverFactory 20 - inside init_driver, browser : chrome
-02-06-2023 23:31:32 DriverFactory.java INFO  [main] driverFactory.DriverFactory 27 - chrome driver initialized
+02-25-2023 11:32:59 TestBase.java INFO  [main] testbase.TestBase 47 - -------Execution started for TestcasecancelButton-----
+02-25-2023 11:32:59 DriverFactory.java INFO  [main] driverFactory.DriverFactory 21 - inside init_driver, browser : chrome
+02-25-2023 11:33:01 DriverFactory.java INFO  [main] driverFactory.DriverFactory 28 - chrome driver initialized
 OnTestStart
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 31944
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 35351
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 06, 2023 11:31:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677304981.698][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 25, 2023 11:33:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

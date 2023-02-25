@@ -425,3 +425,43 @@
 2023-02-21 14:33:51,806  INFO [main] TestBase:45 - -------Execution started for TestcasecancelButton-----
 2023-02-21 14:33:51,806  INFO [main] DriverFactory:21 - inside init_driver, browser : chrome
 2023-02-21 14:34:08,370  INFO [main] DriverFactory:28 - chrome driver initialized
+2023-02-25 11:29:24,715  INFO [main] TestBase:47 - -------Execution started for TestcaseInvalidLogin-----
+2023-02-25 11:29:24,742  INFO [main] DriverFactory:21 - inside init_driver, browser : chrome
+2023-02-25 11:29:39,914  INFO [main] DriverFactory:28 - chrome driver initialized
+2023-02-25 11:29:52,504  INFO [main] LoginTest:64 - Test Case Execution started------->InvalidLogin
+2023-02-25 11:29:52,507  INFO [main] ElementUtils:81 - Inside enterText method
+2023-02-25 11:29:52,512  INFO [main] ElementUtils:83 - Locator : By.name: username
+2023-02-25 11:29:53,277  INFO [main] ElementUtils:88 - Text Entered  successful
+2023-02-25 11:29:53,277  INFO [main] ElementUtils:81 - Inside enterText method
+2023-02-25 11:29:53,278  INFO [main] ElementUtils:83 - Locator : By.name: password
+2023-02-25 11:29:53,642  INFO [main] ElementUtils:88 - Text Entered  successful
+2023-02-25 11:29:53,643  INFO [main] ElementUtils:21 - Inside doclick method
+2023-02-25 11:29:53,644  INFO [main] ElementUtils:23 - Locator : By.className: orangehrm-login-button
+2023-02-25 11:29:55,428  INFO [main] ElementUtils:28 - click successful
+2023-02-25 11:29:55,431  INFO [main] ElementUtils:103 - Inside iselemetPresent method
+2023-02-25 11:29:55,431  INFO [main] ElementUtils:105 - Locator : By.className: oxd-alert-content-text
+2023-02-25 11:29:56,177  INFO [main] ElementUtils:111 - Element located within the time
+2023-02-25 11:29:56,350  INFO [main] TestBase:47 - -------Execution started for TestcaseloginTest-----
+2023-02-25 11:29:56,350  INFO [main] DriverFactory:21 - inside init_driver, browser : chrome
+2023-02-25 11:29:58,809  INFO [main] DriverFactory:28 - chrome driver initialized
+2023-02-25 11:30:25,242  INFO [main] LoginTest:30 - Test Case Execution started------->LoginTest
+2023-02-25 11:30:25,242  INFO [main] ElementUtils:81 - Inside enterText method
+2023-02-25 11:30:25,244  INFO [main] ElementUtils:83 - Locator : By.name: username
+2023-02-25 11:30:25,410  INFO [main] ElementUtils:88 - Text Entered  successful
+2023-02-25 11:30:25,411  INFO [main] ElementUtils:81 - Inside enterText method
+2023-02-25 11:30:25,412  INFO [main] ElementUtils:83 - Locator : By.name: password
+2023-02-25 11:30:25,615  INFO [main] ElementUtils:88 - Text Entered  successful
+2023-02-25 11:30:25,616  INFO [main] ElementUtils:21 - Inside doclick method
+2023-02-25 11:30:25,617  INFO [main] ElementUtils:23 - Locator : By.className: orangehrm-login-button
+2023-02-25 11:30:25,874  INFO [main] ElementUtils:28 - click successful
+2023-02-25 11:30:28,817  INFO [main] TestBase:47 - -------Execution started for TestcaseredirectToResetPasswordPageLinkPresent-----
+2023-02-25 11:30:28,817  INFO [main] DriverFactory:21 - inside init_driver, browser : chrome
+2023-02-25 11:30:31,417  INFO [main] DriverFactory:28 - chrome driver initialized
+2023-02-25 11:32:26,074  INFO [main] LoginTest:94 - Test Case Execution started------->redirectToResetPasswordPageLinkPresent
+2023-02-25 11:32:26,108  INFO [main] TestBase:47 - -------Execution started for TestcasenavigateResetPasswordPage-----
+2023-02-25 11:32:26,108  INFO [main] DriverFactory:21 - inside init_driver, browser : chrome
+2023-02-25 11:32:27,778  INFO [main] DriverFactory:28 - chrome driver initialized
+2023-02-25 11:32:56,229  INFO [main] LoginTest:110 - Test Case Execution started------->navigateResetPasswordPage
+2023-02-25 11:32:59,361  INFO [main] TestBase:47 - -------Execution started for TestcasecancelButton-----
+2023-02-25 11:32:59,377  INFO [main] DriverFactory:21 - inside init_driver, browser : chrome
+2023-02-25 11:33:01,851  INFO [main] DriverFactory:28 - chrome driver initialized

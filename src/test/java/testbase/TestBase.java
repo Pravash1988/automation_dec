@@ -31,11 +31,13 @@ public class TestBase {
 	static Logger log=Logger.getLogger(TestBase.class.getName());
 	
 	
-	@Parameters(value="env")
+	//@Parameters(value="env")
 	@BeforeTest
-	public void beforetest(String env) throws IOException
+	//public void beforetest(String env) throws IOException
+	public void beforetest() throws IOException
 	{
-		System.out.println(env);
+		//System.out.println(env);
+		String env=System.getProperty("Env");
 		prop=PropConfig.init_properties(env);//environment is decided
 	}
 //	Before method to run before every test case

@@ -6,7 +6,6 @@
 <listener class-name="listeners.ExtentReportListener"></listener>
 </listeners>
   <test thread-count="5" name="Test">
-  <parameter name="env" value="SIT"></parameter>
     <classes>
       <class name="testCase.LoginTest"/>
        </classes>
